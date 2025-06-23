@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" type="text/css" href="css/faclube.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="ibg/logo01.png" alt="Logo inicial" class="header-img">
+            <h1>Tai Lung - O Verdadeiro Dragão Guerreiro</h1>
+            <img src="ibg/logo02.png" alt="Logo inicial" class="header-img">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="status.html">Status</a></li>
+            <li><a href="inscricao.html">Inscrição</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <p>Preencha seus dados para fazer parte do fã-clube do lendário Tai Lung!</p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+
+                    <label>Sexo:</label>
+                    <div class="radio-group">
+                        <input type="radio" name="sexo" id="masc" value="Masculino" required>
+                        <label for="masc">Masculino</label>
+
+                        <input type="radio" name="sexo" id="fem" value="Feminino">
+                        <label for="fem">Feminino</label>
+
+                        <input type="radio" name="sexo" id="outro" value="Outro">
+                        <label for="outro">Outro</label>
+                    </div>
+
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Confirmação</legend>
+                    <input type="checkbox" name="participar" id="participar" required>
+                    <label for="participar">Desejo participar do fã-clube.</label>
+                </fieldset>
+
+                <div class="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+
+            </form>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <img src="ibg/tai lung attack.gif" alt="Gif brabo do Tai Lung" style="max-width: 800px; width: 100%; height: auto;">
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; deivinhomau - ADS2025</p>
+    </footer>
+
+</body>
+</html>
